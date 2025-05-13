@@ -1,0 +1,95 @@
+body{
+    background-color: #202c34;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    border-bottom: 1px solid #fff;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+.header h1{
+    color: white;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    color: #fff;
+    background-color: #202c34;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre os elementos */
+    max-width: 400px; /* Largura máxima do formulário */
+    margin: 50px auto; /* Centraliza o formulário na página */
+    padding: 20px;
+    background-color: #f9f9f9; /* Fundo claro */
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.contact-form label {
+    font-size: 1rem;
+    color: #333; /* Cor do texto */
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1rem;
+    color: #333;
+    background-color: #fff; /* Fundo branco */
+    box-sizing: border-box; /* Inclui padding na largura */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #007bff; /* Cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra ao focar */
+}
+
+.contact-form textarea {
+    resize: vertical; /* Permite redimensionar apenas na vertical */
+}
+
+.contact-form button {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+}
